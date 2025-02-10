@@ -6,8 +6,8 @@
 import random
 
 my_file = open("BigBrain.txt", "r")
-data = my_file.read()
-print(data)
+BigBrain = my_file.read()
+# print(BigBrain)
 
 Szam = random.randint(1, 100)
 probalkozasok = 0
@@ -39,4 +39,4 @@ print("*                             *")
 print("*******************************")
 
 if probalkozasok < 6:
-    print(data)
+    print(BigBrain)
