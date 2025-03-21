@@ -1,0 +1,10 @@
+Biblia,
+énekeskönyv,
+templom,
+úrvacsora,
+istentisztelet,
+zsoltár,
+napi ige,
+imádkozás,
+csendesség,
+megtérés

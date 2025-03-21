@@ -5,14 +5,18 @@
 
 import random
 
-my_file = open("BigBrain.txt", "r")
-BigBrain = my_file.read()
+#my_file = open("BBigBrain.txt", "r")
+#BigBrain = my_file.read()
 # print(BigBrain)
+
+opened_file = open("BigBrain.txt", "r")
+felirat = opened_file.read()
+#print(felirat)
 
 Szam = random.randint(1, 100)
 probalkozasok = 0
-tippek = []
-print(Szam)
+tippek = list()
+#print(Szam)
 
 tipp = -999
 print("Gondoltam egy számra 1 és 100 között.")
@@ -28,7 +32,7 @@ while tipp != Szam:
         print("Eddigi tippek: ", tippek)
     elif tipp < Szam:
         print("Ennél nagyobb számra gondoltam.")
-        print("Eddigi tippek:", tippek)
+        print("Eddigi tippek: ", tippek)
         
 print("*******************************")
 print("*                             *")
@@ -39,4 +43,7 @@ print("*                             *")
 print("*******************************")
 
 if probalkozasok < 6:
-    print(BigBrain)
+    print(felirat)
+    
+print("Próbálkozások száma: ", probalkozasok)
+print("Tippelt számok: ", tippek)

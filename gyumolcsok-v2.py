@@ -73,7 +73,7 @@ print("A sorsolás pontszáma", autoPontok)
 egyPontos = 0
 ketPontos = 0
 
-for i in range (0, 100000):
+for i in range (0, 1000000):
     
     vizsgalt = sorsolas(gyumolcsok, 3)
     vizsgaltPontszam = pontozas(vizsgalt)

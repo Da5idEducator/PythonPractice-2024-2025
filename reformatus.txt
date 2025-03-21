@@ -1,0 +1,10 @@
+Biblia,
+Sola Fide,
+Sola Scriptura,
+Solus Christus,
+Sola Gratia,
+Soli Deo Gloria,
+Példázat,
+Gyülekezet,
+Énekeskönyv,
+Zsoltárok

@@ -1,0 +1,10 @@
+templom,
+kakas,
+Biblia,
+Zsoltár,
+Sola Gratia,
+Sola Scriptura,
+istentisztelet,
+úrvacsora,
+énekeskönyv,
+hitvallás
